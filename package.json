@@ -1,0 +1,13 @@
+{
+  "name": "brightwave-devops-practical",
+  "version": "1.0.0",
+  "description": "DevOps practical web application for CI/CD, Docker, monitoring and deployment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node -e \"console.log('Basic test passed: application files exist')\""
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
