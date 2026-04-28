@@ -1,0 +1,6 @@
+services:
+  brightwave-app:
+    build: .
+    ports:
+      - "3060:3040"
+    restart: always
